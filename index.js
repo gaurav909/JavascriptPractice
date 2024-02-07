@@ -1,8 +1,17 @@
-function getName(){
-    return 'Gaurav Singh'
-}
+//logical and or operator
 
-let a=true;
-let b=true;
+// function getName(){
+//     return 'Gaurav Singh'
+// }
 
-console.log(a&&getName())
+// let a=false;
+// let b=true;
+
+// console.log(a||getName())
+
+//Template Literals
+let firstName='Gaurav'
+let secondName='Singh'
+let prefix='Mr'
+
+console.log(`${prefix} ${firstName} ${secondName}`)
