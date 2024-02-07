@@ -28,10 +28,6 @@ function getCity(){
     return 'This person is from USA'
 
 }
-// if(returnage){
-//     console.log(getAgeInfo(30))
-// }else{
-//     console.log(getCity())
-// }
+
 
 returnage?console.log(getAgeInfo(50)):console.log(getCity())
